@@ -20,9 +20,10 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     env:
-      HOST: demo-eu-1.leanix.net
+      HOST: emo-de.leanix.net
       LEANIX_MANIFEST_PATH: /manifest.yml
       DEPENDENCY_MANAGER: NPM
+      LEANIX_API_TOKEN: 3SXTecJaxSb5sfyWHAAKdxH6fteOnXgn4RzgkBUD
       STAGE: production
       VERSION: 1.0.0
       ALLOW_FAILURE: true
@@ -43,7 +44,7 @@ jobs:
       id: LIXVSM
       with:  
         host: ${{ env.HOST }}  
-        api-token: ${{ secrets.LEANIX_API_TOKEN }}  
+        api-token: ${{ env.LEANIX_API_TOKEN }}  
         manifest-path: ${{ env.LEANIX_MANIFEST_PATH }}  
         dependency-manager: ${{ env.DEPENDENCY_MANAGER }}  
         stage: ${{ env.STAGE }}  
