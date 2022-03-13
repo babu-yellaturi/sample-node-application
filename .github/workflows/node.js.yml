@@ -20,7 +20,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     env:
-      HOST: emo-de.leanix.net
+      HOST: demo-de.leanix.net
       LEANIX_MANIFEST_PATH: /manifest.yml
       DEPENDENCY_MANAGER: NPM
       LEANIX_API_TOKEN: 3SXTecJaxSb5sfyWHAAKdxH6fteOnXgn4RzgkBUD
