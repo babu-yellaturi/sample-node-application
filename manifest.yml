@@ -1,7 +1,7 @@
 id: sample-node-application
 name: sample-node-application
 self: https://github.com/babu-yellaturi/sample-node-application/manifest.yml
-description: Sample app to showcase Github-action integration.
+description: Sample app to showcase 
 owner: ravi.kunapareddy@pwc.com
 links:
   - name: Github
